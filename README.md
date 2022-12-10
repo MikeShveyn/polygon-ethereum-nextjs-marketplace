@@ -47,6 +47,18 @@ yarn
 
 2. Start the local Hardhat node
 
+2.1 Open terminal and paste these as described:
+
+Linux and macOS (Windows Git Bash)-
+
+export NODE_OPTIONS=--openssl-legacy-provider
+Windows command prompt-
+
+set NODE_OPTIONS=--openssl-legacy-provider
+Windows PowerShell-
+
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
+
 ```sh
 npx hardhat node
 ```
@@ -58,6 +70,18 @@ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 4. Start the app
+
+4.1 Open terminal and paste these as described:
+
+Linux and macOS (Windows Git Bash)-
+
+export NODE_OPTIONS=--openssl-legacy-provider
+Windows command prompt-
+
+set NODE_OPTIONS=--openssl-legacy-provider
+Windows PowerShell-
+
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
 
 ```
 npm run dev
